@@ -1,0 +1,95 @@
+.el-container {
+  width: 100%;
+  height: 100%;
+  :deep(.el-aside) {
+    width: auto;
+    background-color: var(--el-menu-bg-color);
+    border-right: 1px solid var(--el-aside-border-color);
+    .aside-box {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      transition: width 0.3s ease;
+      .el-scrollbar {
+        height: calc(100% - 55px);
+        padding: 0 5px;
+        .el-menu {
+          width: 100%;
+          overflow-x: hidden;
+          border-right: none;
+          .el-menu-item {
+            height: 36px;
+            line-height: 36px;
+            border-radius: 4px;
+            margin: 4px 0;
+            &.is-active {
+              &::before {
+                display: none;
+              }
+            }
+          }
+          @media screen and (width < 1200px) {
+            .el-sub-menu__title {
+              justify-content: center;
+              // padding-left: var(--pl);
+              .el-sub-menu__icon-arrow {
+                //right: 12px;
+              }
+            }
+            .el-menu--inline {
+              .el-menu-item {
+                // padding-left: 48px;
+              }
+            }
+          }
+        }
+      }
+      .logo {
+        box-sizing: border-box;
+        height: 55px;
+        position: relative;
+        .logo-img-mobile {
+          width: 40px;
+          object-fit: contain;
+          margin-right: 6px;
+        }
+        .logo-img-pc {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 142px;
+          object-fit: contain;
+          margin-right: 6px;
+        }
+        .logo-text {
+          font-size: 21.5px;
+          font-weight: bold;
+          color: var(--el-aside-logo-text-color);
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .el-header {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    padding: 0 15px;
+    background-color: var(--el-header-bg-color);
+    border-bottom: 1px solid var(--el-header-border-color);
+  }
+}
+
+@media screen and (width <= 1250px) {
+  .login-left {
+    display: none;
+  }
+}
+
+@media screen and (width <= 600px) {
+  .login-form {
+    width: 97% !important;
+  }
+}

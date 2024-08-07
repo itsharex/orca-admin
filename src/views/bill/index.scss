@@ -1,0 +1,136 @@
+.bill-info {
+  background: rgba(255, 136, 0, 0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 136, 0, 0.3);
+  .bill-lf {
+    display: flex;
+    .bill-img {
+      width: 68px;
+      height: 68px;
+      background: rgba(255, 136, 0, 0.15);
+      border-radius: 8px;
+      img {
+        width: 26px;
+        height: 26px;
+      }
+    }
+    .bill-money {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      span {
+        font-family:
+          PingFangSC,
+          PingFang SC;
+        font-weight: 400;
+        font-size: 14px;
+        color: #5c5e66;
+      }
+    }
+  }
+  .bill-rt {
+    display: flex;
+    align-items: center;
+    span {
+      font-family:
+        PingFangSC,
+        PingFang SC;
+      font-weight: 400;
+      font-size: 14px;
+      color: #3370ff;
+    }
+    p {
+      background: #dfe4ee;
+      border-radius: 16px;
+      font-family:
+        PingFangSC,
+        PingFang SC;
+      font-weight: 600;
+      font-size: 14px;
+      color: #ffffff;
+      padding: 6px 53px;
+    }
+  }
+}
+
+.search-content {
+  .search-label {
+    display: inline-block;
+    font-family:
+      PingFangSC,
+      PingFang SC;
+    font-weight: 400;
+    font-size: 12px;
+    color: #2e2f33;
+  }
+}
+
+.cust-table {
+  --el-fill-color-light: rgb(51, 112, 255);
+  --el-text-color-primary: #fff;
+  --el-text-color-placeholder: #fff;
+  background-color: transparent;
+  :deep(.el-table__header-wrapper) {
+    border-radius: 16px 16px 0 0;
+  }
+  :deep(.el-table__body-wrapper) {
+    border-radius: 0 0 16px 16px;
+  }
+}
+.table-empty {
+  height: auto !important;
+  flex-direction: column;
+}
+
+:deep(.el-statistic__number) {
+  font-family: DIN, DIN;
+  font-weight: bold;
+  font-size: 28px;
+  color: #2e2f33;
+}
+:deep(.el-card) {
+  border-radius: 16px;
+}
+.card-item {
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    .card-title {
+      font-family:
+        PingFangSC,
+        PingFang SC;
+      font-weight: 400;
+      font-size: 14px;
+      color: #5c5e66;
+    }
+    .card-bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 12px;
+    }
+  }
+
+  .card-bg-1 {
+    background: #cedfff;
+  }
+
+  .card-bg-2 {
+    background: #dbe1ff;
+  }
+
+  .card-bg-3 {
+    background: #cbe7f5;
+  }
+
+  .card-bg-4 {
+    background: #d3e6ff;
+  }
+}
+:deep(.el-tabs__nav-wrap) {
+  &::after {
+    width: 0;
+  }
+}

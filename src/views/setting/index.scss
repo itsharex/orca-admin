@@ -1,0 +1,28 @@
+:deep(.el-card) {
+  border-radius: 16px;
+}
+:deep(.el-aside) {
+  padding: 10px 10px;
+}
+:deep(.el-menu) {
+  border-right: 0;
+}
+:deep(.el-menu-item) {
+  height: 40px;
+  line-height: 40px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  &:hover {
+    background-color: #f5f7fa;
+  }
+}
+:deep(.el-menu-item.is-active) {
+  background-color: rgba(51, 112, 255, 0.2) !important;
+  color: rgba(51, 112, 255, 1) !important;
+  &::before {
+    display: none;
+  }
+  span {
+    font-weight: 600;
+  }
+}

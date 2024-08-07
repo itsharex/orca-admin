@@ -1,0 +1,269 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "path": "/home/index",
+      "name": "home",
+      "component": "/home/index",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "首页",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+    {
+      "path": "/bill/index",
+      "name": "bill",
+      "component": "/bill/index",
+      "meta": {
+        "icon": "",
+        "title": "账单",
+        "isLink": "",
+        "isHide": true,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+    {
+      "path": "/room/index",
+      "name": "room",
+      "component": "/room/index",
+      "meta": {
+        "icon": "VideoCamera",
+        "title": "直播管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      },
+      "children": [
+        {
+          "path": "/room/edit/:id/:name",
+          "name": "edit",
+          "component": "/room/edit",
+          "meta": {
+            "icon": "Monitor",
+            "title": "配置",
+            "isLink": "",
+            "isHide": true,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": false
+          }
+        },
+        {
+          "path": "/room/add",
+          "name": "add",
+          "component": "/room/add",
+          "meta": {
+            "icon": "Monitor",
+            "title": "新建直播",
+            "isLink": "",
+            "isHide": true,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": false
+          }
+        }
+      ]
+    },
+    {
+      "path": "/order/index",
+      "name": "order",
+      "component": "/order/index",
+      "meta": {
+        "icon": "Box",
+        "title": "订单管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+    {
+      "path": "/room/statistics",
+      "name": "roomStatistics",
+      "component": "/room/statistics",
+      "meta": {
+        "icon": "Odometer",
+        "title": "直播统计",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+
+
+    {
+      "path": "/channel",
+      "name": "channel",
+      "redirect": "/channel/index",
+      "meta": {
+        "icon": "Help",
+        "title": "渠道经营",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      },
+      "children": [
+        {
+          "path": "/channel/index",
+          "name": "channelIndex",
+          "component": "/channel/index",
+          "meta": {
+            "icon": "",
+            "title": "渠道管理",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": false
+          }
+        },
+        {
+          "path": "/channel/data",
+          "name": "channelData",
+          "component": "/channel/data",
+          "meta": {
+            "icon": "",
+            "title": "渠道数据",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": false
+          }
+        }
+      ]
+    },
+
+    {
+      "path": "/goods/index",
+      "name": "goods",
+      "component": "/goods/index",
+      "meta": {
+        "icon": "Goods",
+        "title": "商品管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+
+    {
+      "path": "/gift/index",
+      "name": "gift",
+      "component": "/gift/index",
+      "meta": {
+        "icon": "Present",
+        "title": "礼物",
+        "isLink": "",
+        "isHide": true,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+    
+    
+    
+    {
+      "path": "/robot/index",
+      "name": "robot",
+      "component": "/robot/index",
+      "meta": {
+        "icon": "Avatar",
+        "title": "AI人",
+        "isLink": "",
+        "isHide": true,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+    {
+      "path": "/video/index",
+      "name": "video",
+      "component": "/video/index",
+      "meta": {
+        "icon": "VideoPlay",
+        "title": "视频管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+    {
+      "path": "/cs/index",
+      "name": "cs",
+      "component": "/cs/index",
+      "meta": {
+        "icon": "UserFilled",
+        "title": "客服",
+        "isLink": "",
+        "isHide": true,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+    {
+      "path": "/info/index",
+      "name": "info",
+      "component": "/info/index",
+      "meta": {
+        "icon": "OfficeBuilding",
+        "title": "机构",
+        "isLink": "",
+        "isHide": true,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+    {
+      "path": "/uploadFile/index",
+      "name": "uploadFile",
+      "component": "/uploadFile/index",
+      "meta": {
+        "icon": "Upload",
+        "title": "上传",
+        "isLink": "",
+        "isHide": true,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    },
+    {
+      "path": "/setting/index",
+      "name": "setting",
+      "component": "/setting/index",
+      "meta": {
+        "icon": "Setting",
+        "title": "系统设置",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": false
+      }
+    }
+  ],
+  "msg": "成功"
+}

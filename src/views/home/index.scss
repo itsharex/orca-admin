@@ -1,0 +1,162 @@
+:deep(.el-statistic__number) {
+  font-family: DIN, DIN;
+  font-weight: bold;
+  font-size: 40px;
+  color: #2e2f33;
+}
+:deep(.el-card) {
+  border-radius: 16px;
+}
+
+.table-box {
+  .live-data .el-card {
+    height: calc(100vh - 500px);
+    overflow: auto;
+    align-content: baseline;
+    // .el-row {
+    //   height: calc(100vh - 500px);
+    //   overflow: scroll;
+    //   align-content: baseline;
+    // }
+    .ECharts {
+      height: calc(100vh - 700px);
+    }
+  }
+}
+
+.card-item {
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    .card-title {
+      font-family:
+        PingFangSC,
+        PingFang SC;
+      font-weight: 400;
+      font-size: 14px;
+      color: #5c5e66;
+    }
+    .card-bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 12px;
+    }
+  }
+
+  .card-bg-1 {
+    background: #cedfff;
+  }
+
+  .card-bg-2 {
+    background: #dbe1ff;
+  }
+
+  .card-bg-3 {
+    background: #cbe7f5;
+  }
+
+  .card-bg-4 {
+    background: #d3e6ff;
+  }
+}
+.live-content {
+  img {
+    width: 156px;
+    height: 88px;
+    border-radius: 5px;
+  }
+  .live-info {
+    width: calc(100% - 172px);
+    height: 80px;
+    flex-direction: column;
+    align-items: normal;
+    .live-title {
+      font-family:
+        PingFangSC,
+        PingFang SC;
+      font-weight: 400;
+      font-size: 14px;
+      color: #5c5e66;
+    }
+    .live-bg {
+      width: 20px;
+      height: 20px;
+      border-radius: 7px;
+    }
+    .live-bg-1 {
+      background-color: #eaf6ff;
+    }
+    .live-bg-2 {
+      background-color: #f9f2ff;
+    }
+    .live-type {
+      font-family:
+        PingFangSC,
+        PingFang SC;
+      font-weight: 400;
+      font-size: 12px;
+      color: #8b8e9a;
+    }
+    .live-time {
+      font-family:
+        PingFangSC,
+        PingFang SC;
+      font-weight: 400;
+      font-size: 12px;
+      color: #8b8e9a;
+    }
+    .live-status {
+      font-family:
+        PingFangSC,
+        PingFang SC;
+      font-weight: 400;
+      font-size: 12px;
+      color: #ff8800;
+    }
+  }
+}
+.table-empty {
+  height: 322px;
+  flex-direction: column;
+}
+
+.account-content {
+  padding: 26px 32px;
+  background: linear-gradient(218deg, #ffffdd 0%, #f4eefe 100%);
+  border-radius: 16px;
+  img {
+    width: 157px;
+    height: 100px;
+  }
+  .account-info {
+    margin-left: 32px;
+    .account-tips {
+      font-family:
+        PingFangSC,
+        PingFang SC;
+      font-weight: 600;
+      font-size: 16px;
+      color: #002e74;
+    }
+    .account-list {
+      div {
+        span {
+          font-family:
+            PingFangSC,
+            PingFang SC;
+          font-weight: 400;
+          font-size: 14px;
+          &:first-of-type {
+            color: #2e2f33;
+          }
+          &:last-of-type {
+            color: #3370ff;
+          }
+        }
+      }
+    }
+  }
+}
