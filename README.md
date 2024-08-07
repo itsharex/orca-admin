@@ -33,6 +33,9 @@
 - [基础服务-动弹服务](联系+V: beat_ping 索取)
 
 
+## Demo 地址
+- https://admin.orcacl.com  hwjy/hwjy123
+
 ## 项目功能 🔨
 
 虎鲸云直播运营管理端
