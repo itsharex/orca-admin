@@ -1,5 +1,10 @@
 # 虎鲸云 直播运营管理端
 
+## AD 欢迎大佬们关注公众号 pinkhello 与 🌍 
+
+![pinkhello](./qrcode.jpg)
+![v](./qrcodegr.jpg)
+
 ## 项目介绍
  
  > 专注提供私域直播的开源的SAAS解决方案。
@@ -16,25 +21,32 @@
 
 - [直播后端服务](https://github.com/orca-yun/living)
 
-- [基础服务-视频直播](联系V beat_ping 索取)
+- [基础服务-视频直播](联系V: beat_ping 索取)
 
-- [基础服务-白板服务](联系V beat_ping 索取)
+- [基础服务-白板服务](联系V: beat_ping 索取)
 
-- [基础服务-动弹服务](联系V beat_ping 索取)
-
+- [基础服务-动弹服务](联系V: beat_ping 索取)
 
 
 ## 项目功能 🔨
 
 虎鲸云直播运营管理端
 
-
-
-欢迎大佬们关注公众号 pinkhello
-
-![pinkhello](./qrcode.jpg)
+- 直播管理
+- 直播开播
+- 直播分享
+- 直播数据
+- 渠道管理
+- 渠道数据
+- 订单管理
+- 商品管理
+- 系统设置
+- 礼物配置
+- 免审词库
+- 敏感词库
+- 支付等
 
 
 ### 开发指南 & 项目目录介绍
 
-- [移步](./README.DEV.md)
+- [开发指南](./README.DEV.md)
