@@ -6,7 +6,7 @@
 
 欢迎大佬们关注公众号 pinkhello
 
-[pinkhello](./qrcode.jpg)
+![pinkhello](./qrcode.jpg)
 
 
 
