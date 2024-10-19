@@ -34,7 +34,10 @@
 
 
 ## Demo 地址
-- https://admin.orcacl.com  hwjy/hwjy123
+- 运营端 https://admin.orcacl.com  hwjy/hwjy123
+- 助理端 https://admin.orcacl.com/app/assistant
+- 主播端 https://admin.orcacl.com/app/anchor
+- 观看端 http://d.kfc1.cn/c6e753cef47
 
 ## 项目功能 🔨
 
